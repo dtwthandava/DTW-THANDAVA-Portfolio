@@ -1,1 +1,108 @@
+Module-01: Getting Started with Kali Linux
+📖 Module Overview:
+In Module-01, I was introduced to Kali Linux, a powerful Debian-based Linux distribution used for penetration testing, ethical hacking, and security auditing.
+This module focused on installing Kali Linux, configuring the environment, and understanding basic Linux commands that are essential for daily operations in security assessments.
 
+🎯 Learning Objectives:
+Understand the purpose of Kali Linux in cybersecurity.
+
+Explore different installation methods (VM, Bare Metal, WSL, Live USB).
+
+Configure the Kali Linux environment for security tasks.
+
+Learn basic Linux commands and navigation.
+
+Update and manage Kali Linux with package management tools.
+
+🛠️ Practical Work Completed:
+1. Kali Linux Installation:
+Platform Chosen: Virtual Machine (using VirtualBox)
+
+Configuration:
+
+Allocated 4 GB RAM, 2 CPU cores, and 20 GB disk space.
+
+Installed Kali Linux ISO.
+
+Non-root user creation during installation for better security practice.
+
+2. Initial System Update:
+bash
+Copy
+Edit
+sudo apt update && sudo apt upgrade -y
+Result: All installed packages and Kali Linux tools were updated to their latest versions.
+
+3. Exploring the Kali Linux Environment:
+Navigated through the XFCE Desktop environment for better user experience.
+
+Discovered and launched Kali’s pre-installed tools from the Applications Menu (including nmap, metasploit, burp suite, etc.).
+
+Familiarized with the Kali Tools menu for penetration testing and security assessments.
+
+4. Practicing Basic Linux Commands:
+Learned essential commands for system navigation and file manipulation:
+
+bash
+Copy
+Edit
+# Check the current user
+whoami
+
+# List files and directories
+ls
+
+# Change directory
+cd <directory>
+
+# Print working directory
+pwd
+
+# Create a directory
+mkdir <directory-name>
+
+# Remove a file or directory
+rm <filename>
+5. Package Management with APT:
+Updated system and installed basic tools using apt:
+
+bash
+Copy
+Edit
+# Update system package list
+sudo apt update
+
+# Install a new package (e.g., nmap)
+sudo apt install nmap
+
+# Remove an unused package
+sudo apt remove <package-name>
+🔥 Key Concepts & Skills:
+
+Topic	Details
+What is Kali Linux	A specialized Linux distro designed for penetration testing and ethical hacking.
+Installation Methods	Virtual Machine (VM), Bare Metal, WSL, and Live USB options for installation.
+System Configuration	Creation of a non-root user for safety, system updates, and environment setup.
+Linux Commands	Basic file system navigation, directory management, and package installation.
+Package Management	Using APT (apt update, apt upgrade, apt install) for system updates and tool management.
+💡 Lessons Learned:
+Kali Linux is the foundation of my penetration testing journey; it equips me with powerful tools and resources for ethical hacking.
+
+Command-line proficiency is a must for any penetration tester. Knowing how to operate efficiently in a terminal environment enhances productivity.
+
+Installing and configuring Kali Linux securely (using a non-root user) is crucial for a safer pentesting experience.
+
+📝 Personal Reflection:
+"Working with Kali Linux feels like stepping into the world of cybersecurity for real!
+Installing the OS and configuring it has been a hands-on introduction to pentesting tools and Linux fundamentals.
+Now, I feel ready to take on more advanced modules and sharpen my skills in penetration testing."
+
+📅 Completion Date:
+26-April-2025
+
+🚀 Next Steps:
+Dive deeper into Module-02: Linux Fundamentals to master the terminal and Linux administration.
+
+Explore more advanced tools in Kali Linux.
+
+Created by: dtwthandava | Team: Thandava Phantom 🏴‍☠️
