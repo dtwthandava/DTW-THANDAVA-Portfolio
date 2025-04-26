@@ -1,1 +1,144 @@
+Module-02: Linux Fundamentals - Portfolio
+markdown
+Copy
+Edit
+# 📜 PEN-100 Portfolio  
+## Module-02: Linux Fundamentals
 
+---
+
+### 📖 Module Overview:
+In **Module-02**, I learned the **Linux fundamentals** which are essential for working efficiently with **Linux-based operating systems** like **Kali Linux**. The focus of this module was to understand how to navigate the **Linux file system**, manage users, set file permissions, handle processes, and use basic text editors. These skills are critical for penetration testing and security assessments.
+
+---
+
+### 🎯 Learning Objectives:
+- Understand the **Linux file system** and its structure.
+- Learn to navigate and manipulate **files and directories**.
+- Understand **user management** and **group management** in Linux.
+- Learn how to work with **file permissions** and **process management**.
+- Get familiar with the **apt package management system**.
+- Learn how to use **text editors** like **Vim** and **Nano**.
+
+---
+
+### 🛠️ Practical Work Completed:
+
+#### 1. **Linux File System Structure**:
+- Explored the basic Linux directories:
+  - `/`, `/home`, `/bin`, `/etc`, `/var`, etc.
+  - Learned their purpose in the Linux ecosystem.
+  
+#### 2. **Working with Files and Directories**:
+- Navigated directories and created files and directories:
+```bash
+mkdir test_directory
+touch test_file.txt
+List files with permissions and ownership:
+
+bash
+Copy
+Edit
+ls -l
+Copied, moved, and removed files:
+
+bash
+Copy
+Edit
+cp test_file.txt test_copy.txt
+mv test_copy.txt test_directory/
+rm test_directory/test_copy.txt
+
+#### 3. User and Group Management:
+Created a new user and assigned a password:
+
+bash
+Copy
+Edit
+sudo useradd test_user
+sudo passwd test_user
+Created a new group and added the user to the group:
+
+bash
+Copy
+Edit
+sudo groupadd test_group
+sudo usermod -aG test_group test_user
+
+#### 4. File Permissions:
+Changed file permissions and ownership:
+
+bash
+Copy
+Edit
+chmod 755 test_file.txt
+chown test_user:test_group test_file.txt
+Explained file permissions:
+
+r (Read), w (Write), x (Execute).
+
+#### 5. Process Management:
+View running processes:
+
+bash
+Copy
+Edit
+ps aux
+top
+Killed a process using PID:
+
+bash
+Copy
+Edit
+kill 1234  # 1234 is the PID
+
+#### 6. Package Management:
+Installed and updated a package using APT:
+
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install nmap
+Upgraded the system:
+
+bash
+Copy
+Edit
+sudo apt upgrade
+
+#### 7. Text Editors:
+Opened and edited files using Nano and Vim:
+
+bash
+Copy
+Edit
+nano test_file.txt
+vim test_file.txt
+🔥 Key Concepts & Skills:
+
+### Topic	Details
+Linux File System	Understanding directories like /bin, /etc, /home.
+File Management	Using commands like ls, cp, mv, rm, and understanding file permissions.
+User & Group Management	Creating users, groups, and assigning them correctly.
+File Permissions	Modifying and understanding file permissions using chmod, chown.
+Process Management	Viewing and managing processes using ps and top.
+Package Management	Installing, updating, and managing packages using apt.
+Text Editors	Editing files using Nano and Vim.
+💡 Lessons Learned:
+Linux Fundamentals are crucial for working in cybersecurity, especially for penetration testing tasks.
+
+Gaining proficiency with the Linux command line is key to navigating and manipulating the system effectively.
+
+Package management and process management are vital for maintaining a stable working environment during security assessments.
+
+📝 Personal Reflection:
+"Mastering the Linux fundamentals has been essential for my journey in penetration testing. Being comfortable with Linux commands makes me more efficient, and it's exciting to dive into the world of security with Kali Linux as my foundation."
+
+📅 Completion Date:
+02-April-2025
+
+🚀 Next Steps:
+Proceed to Module-03: Networking Fundamentals to build on networking knowledge and understand how networks function in a penetration testing environment.
+
+Created by: dtwthandava | Team: Thandava Phantom 🏴‍☠️
