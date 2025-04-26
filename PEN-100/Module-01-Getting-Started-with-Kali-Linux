@@ -19,7 +19,7 @@ Update and manage Kali Linux with package management tools.
 #### 1. Kali Linux Installation:
 Platform Chosen: Virtual Machine (using VirtualBox)
 
-Configuration:
+### Configuration:
 
 Allocated 4 GB RAM, 2 CPU cores, and 20 GB disk space.
 
@@ -107,4 +107,4 @@ Dive deeper into Module-02: Linux Fundamentals to master the terminal and Linux 
 
 Explore more advanced tools in Kali Linux.
 
-Created by: dtwthandava | Team: Thandava Phantom 🏴‍☠️
+Created by: dtwthandava🏴‍☠️
