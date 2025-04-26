@@ -15,7 +15,8 @@ Learn basic Linux commands and navigation.
 Update and manage Kali Linux with package management tools.
 
 🛠️ Practical Work Completed:
-1. Kali Linux Installation:
+
+#### 1. Kali Linux Installation:
 Platform Chosen: Virtual Machine (using VirtualBox)
 
 Configuration:
@@ -26,21 +27,21 @@ Installed Kali Linux ISO.
 
 Non-root user creation during installation for better security practice.
 
-2. Initial System Update:
+#### 2. Initial System Update:
 bash
 Copy
 Edit
 sudo apt update && sudo apt upgrade -y
 Result: All installed packages and Kali Linux tools were updated to their latest versions.
 
-3. Exploring the Kali Linux Environment:
+#### 3. Exploring the Kali Linux Environment:
 Navigated through the XFCE Desktop environment for better user experience.
 
 Discovered and launched Kali’s pre-installed tools from the Applications Menu (including nmap, metasploit, burp suite, etc.).
 
 Familiarized with the Kali Tools menu for penetration testing and security assessments.
 
-4. Practicing Basic Linux Commands:
+#### 4. Practicing Basic Linux Commands:
 Learned essential commands for system navigation and file manipulation:
 
 bash
@@ -63,7 +64,8 @@ mkdir <directory-name>
 
 # Remove a file or directory
 rm <filename>
-5. Package Management with APT:
+
+#### 5. Package Management with APT:
 Updated system and installed basic tools using apt:
 
 bash
@@ -98,7 +100,7 @@ Installing the OS and configuring it has been a hands-on introduction to pentest
 Now, I feel ready to take on more advanced modules and sharpen my skills in penetration testing."
 
 📅 Completion Date:
-26-April-2025
+01-April-2025
 
 🚀 Next Steps:
 Dive deeper into Module-02: Linux Fundamentals to master the terminal and Linux administration.
